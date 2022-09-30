@@ -59,5 +59,3 @@ describe("polybius", () =>{
 
 
  
-//converts both 'i' and 'j' to 42
-//converts 42 to 'i/j'
