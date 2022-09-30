@@ -1,0 +1,16 @@
+
+    If the shift value isn't present, equal to 0, less than -25, or greater than 25, the function should return false.  - check at the start
+
+    Spaces should be maintained throughout, as should other nonalphabetic symbols. - how to keep spaces???
+    Capital letters can be ignored. - use toLowerCase
+
+    If a letter is shifted so that it goes "off" the alphabet (e.g., a shift of 3 on the letter z), it should wrap around to the front of the alphabet (e.g., z becomes c). - use mod26
+
+      // Get the letter's code
+      var code = str.charCodeAt(i) - to get each characters ASCII value
+
+
+    TESTS:
+    1. returns false if shift is equal to 0, >25, <-25, or !shift
+    2. returns cipher text with given shift
+    3. check if input is present
