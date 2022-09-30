@@ -84,5 +84,4 @@ describe("caesar", () =>{
 
 
 
-//ignores capital letters
-//shifts to the left when shift value is negative
+
